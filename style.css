@@ -56,6 +56,14 @@ section{
     border-radius: 20px;
     margin: 1%;
 }
+.imgIzquierda:hover{
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transform: rotateZ(10deg) scale(1.2);
+    filter: blur(1px) grayscale(100%); brignet
+
+
+
 
 iframe{
     display: block;
