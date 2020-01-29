@@ -60,12 +60,59 @@ section{
     transition-duration: 2s;
     transition-timing-function: linear;
     transform: rotateZ(10deg) scale(1.2);
-    filter: blur(1px) grayscale(100%); brignet
+    filter: blur(1px) grayscale(100%);
 
-
+}
 
 
 iframe{
     display: block;
     margin: 2% auto;
 }
+
+aside{
+    animation-name: miAnimacion;
+    animation-duration: 500ms;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+ @keyframes miAnimacion{
+    10%{
+        transform: scale(.30,.30);
+
+    }
+    25%{
+        transform:rotateZ(2deg);
+    }
+    50%{
+        transform: translate(-3px,3px);
+        filter: contrast(100%);
+    }
+}
+
+header{
+    animation-name: miAnimacion;
+    animation-duration: 200ms;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes miAnimacion{
+    10%{
+        transform: scale(.30,.30);
+
+    }
+    25%{
+        transform:rotateZ(2deg);
+    }
+    50%{
+        transform: translate(-3px,3px);
+        filter: contrast(100%);
+}
+
+
+
